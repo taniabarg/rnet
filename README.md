@@ -9,7 +9,7 @@ rnet
 - All entered commands are parsed and checked for validity and error messages are printed in case of invalid commands
 
 VALID COMMANDS:
-insertR (name) (resistance) (firstnode) -> (secondnode)
+/ninsertR (name) (resistance) (firstnode) -> (secondnode)
 modifyR (name) (resistance)
 printR (name OR all)
 printNode (nodeID OR all)
