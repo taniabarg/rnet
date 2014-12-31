@@ -9,14 +9,14 @@ rnet
 - All entered commands are parsed and checked for validity and error messages are printed in case of invalid commands
 
 VALID COMMANDS:
-/ninsertR (name) (resistance) (firstnode) -> (secondnode)
-modifyR (name) (resistance)
-printR (name OR all)
-printNode (nodeID OR all)
-deleteR (name OR all)
-setV (nodeID) (voltage)
-unsetV (nodeID)
-solve
+- insertR (name) (resistance) (firstnode) -> (secondnode)
+- modifyR (name) (resistance)
+- printR (name OR all)
+- printNode (nodeID OR all)
+- deleteR (name OR all)
+- setV (nodeID) (voltage)
+- unsetV (nodeID)
+- solve
 
 COMPILE:
 g++ -g -Wall -Werror -o rnet Node.cpp Resistor.cpp NodeList.cpp ResistorList.cpp Rparser.cpp Main.cpp
